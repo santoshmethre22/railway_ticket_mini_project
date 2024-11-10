@@ -1,0 +1,95 @@
+
+.add-passenger-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #d4cfcfa4;
+    
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #747171;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .radio-label {
+    margin-right: 10px;
+  }
+  .column-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .column {
+    flex: 1;
+    width: calc(33.33% - 10px); /* Adjust the width for three columns with spacing */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style section headings (optional) */
+  .column h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+  }
+
+  button[type="submit"] {
+    background-color: #0a0a0a;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  textarea {
+    width: 100%; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .login-container {
+    background-image: url('C:\Users\Jennie\Desktop\RailwayMERNSTACK-main\client\src\pictures\22.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; /* Adjust height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Rest of your styles */
+.login-form {
+  background-color: rgba(255, 255, 255, 0.8); /* Add opacity to make text readable */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+

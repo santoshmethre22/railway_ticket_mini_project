@@ -1,0 +1,69 @@
+/* TrainStyles.css */
+
+.train-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .train-sub {
+    text-align: center;
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+  }
+  
+  .ant-form-item {
+    margin-bottom: 16px;
+  }
+  
+  .query-result {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  .button-container button {
+    background-color: white;
+    padding: 10px 20px;
+    border: 1px solid #333;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .button-container button:hover {
+    background-color: #333;
+    color: white;
+  }
+  
